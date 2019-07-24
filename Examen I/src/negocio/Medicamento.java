@@ -17,6 +17,7 @@ public class Medicamento {
 	public float calcularPrecio() {
 		return this.precioBase;
 	}
+	
 	public boolean soyMedicamento(String codigo) {
 		return (this.codigo.equals(codigo));
 	}

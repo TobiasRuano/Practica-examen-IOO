@@ -1,11 +1,12 @@
 package negocio;
 
 public class Laboratorio extends Medicamento {
+
+	float recargo = (float) 1.20;
+	
 	public Laboratorio(String n, String d, float p, String c) {
 		super(n, d, p, c);
 	}
-
-	float recargo = (float) 1.20;
 	
 //	public Laboratorio(String n, String d, float p, String c) {
 //		super.nombre = n;

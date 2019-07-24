@@ -1,12 +1,12 @@
 package negocio;
 
 public class Generico extends Medicamento {
-	public Generico(String n, String d, float p, String c) {
-		super(n, d, p, c);
-		// TODO Auto-generated constructor stub
-	}
 
 	float descuento = (float) 0.80;
+	
+	public Generico(String n, String d, float p, String c) {
+		super(n, d, p, c);
+	}
 	
 //	public Generico(String n, String d, float p, String c) {
 //		super.nombre = n;
